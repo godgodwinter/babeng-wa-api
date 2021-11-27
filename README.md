@@ -21,3 +21,16 @@ Whatsapp API menggunakan whatsapp-web.js dan nodejs
    ```
 
    kemudian scan qrcode 
+
+
+
+### Library / Dependency
+
+#. express
+#. qrcode
+#. qrcode-terminal
+#. socket.io
+#. whatsapp-web.js
+#. nodemon
+#. http
+#. express-validator
