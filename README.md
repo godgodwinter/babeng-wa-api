@@ -17,10 +17,13 @@ Whatsapp API menggunakan whatsapp-web.js dan nodejs
 
 3. Jalankan server 
    ```sh
-   npm run start
+   npm run start:dev
    ```
 
-   kemudian scan qrcode 
+3. Buka link kemudian scan qrcode 
+   ```sh
+   http://localhost:8081
+   ```
 
 
 
