@@ -169,12 +169,13 @@ io.on('connection', function(socket) {
 
     client.on('disconnected', (reason) => {
         socket.emit('message', 'Whatsapp is disconnected!');
-        fs.unlinkSync(SESSION_FILE_PATH, function(err) {
-            if (err) return console.log(err);
-            console.log('Session file deleted!');
-        });
-        client.destroy();
-        client.initialize();
+        console.log('Session file deleted!');
+        // fs.unlinkSync(SESSION_FILE_PATH, function(err) {
+        //     if (err) return console.log(err);
+        //     console.log('Session file deleted!');
+        // });
+        // client.destroy();
+        // client.initialize();
     });
 });
 
