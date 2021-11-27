@@ -74,6 +74,7 @@ typings/
 
 # wa qr sesseion
 whatsapp-session.json
+whatsapp-session*.json
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache

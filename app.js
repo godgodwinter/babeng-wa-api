@@ -26,14 +26,56 @@ client.on('authenticated', (session) => {
     });
 });
 
+
+client.on('auth_failure', msg => {
+    // Fired if session restore was unsuccessfull
+    console.error('AUTHENTICATION FAILURE', msg);
+});
+
 client.on('ready', () => {
     console.log('Client is ready!');
 });
 
-client.on('message', msg => {
-    if (msg.body == '!ping') {
+// client.on('message', msg => {
+//     if (msg.body == '!ping') {
+//         msg.reply('pong');
+//     }
+// });
+
+
+client.on('message', async msg => {
+    console.log('MESSAGE RECEIVED', msg);
+
+    if (msg.body === '!ping reply') {
+        // Send a new message as a reply to the current one
         msg.reply('pong');
-    }
+
+    } else if (msg.body === '!cmd') {
+        // Send a new message to the same chat
+        client.sendMessage(msg.from, `Berikut Perintah yang dapat anda gunakan :
+!cmd untuk melihat command yang tersedia
+!greating untuk mendapat balasan good morning 
+!ping untuk mendapat balasan pong 
+'Here\'s your requested testing`);
+
+
+    } else if (msg.body === '!ping') {
+        // Send a new message to the same chat
+        client.sendMessage(msg.from, 'pong');
+
+    } else if (msg.body === '!greating') {
+        // Send a new message to the same chat
+        client.sendMessage(msg.from, 'Selamat Pagi');
+
+    };
 });
+
+// client.on('message', msg => {
+//     if (msg.body == '!cmd') {
+//         msg.reply('!ping untuk mendapat balasan pong');
+//         msg.reply('!cmd untuk melihat command yang tersedia');
+//         msg.reply('!greating untuk mendapat balasan good morning');
+//     }
+// });
 
 client.initialize();
