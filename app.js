@@ -70,25 +70,6 @@ const client = new Client({
 //     qrcode.generate(qr);
 // });
 
-client.on('authenticated', (session) => {
-    console.log('AUTHENTICATED', session);
-    sessionCfg = session;
-    fs.writeFile(SESSION_FILE_PATH, JSON.stringify(session), function(err) {
-        if (err) {
-            console.error(err);
-        }
-    });
-});
-
-
-client.on('auth_failure', msg => {
-    // Fired if session restore was unsuccessfull
-    console.error('AUTHENTICATION FAILURE', msg);
-});
-
-client.on('ready', () => {
-    console.log('Client is ready!');
-});
 
 // client.on('message', msg => {
 //     if (msg.body == '!ping') {
@@ -97,32 +78,39 @@ client.on('ready', () => {
 // });
 
 
-client.on('message', async msg => {
-    console.log('MESSAGE RECEIVED', msg);
-
-    if (msg.body === '!ping reply') {
-        // Send a new message as a reply to the current one
-        msg.reply('pong');
-
-    } else if (msg.body === '!cmd') {
-        // Send a new message to the same chat
-        client.sendMessage(msg.from, `Berikut Perintah yang dapat anda gunakan :
-!cmd untuk melihat command yang tersedia
-!greating untuk mendapat balasan good morning 
-!ping untuk mendapat balasan pong 
-'Here\'s your requested testing`);
-
-
-    } else if (msg.body === '!ping') {
-        // Send a new message to the same chat
-        client.sendMessage(msg.from, 'pong');
-
-    } else if (msg.body === '!greating') {
-        // Send a new message to the same chat
-        client.sendMessage(msg.from, 'Selamat Pagi');
-
-    };
-});
+//   //pesan otomatis
+//   client.on('message', async msg => {
+//     console.log('MESSAGE RECEIVED', msg);
+  
+//     if (msg.body === '#hi') {
+//         // Send a new message as a reply to the current one
+//        await msg.reply('halo');
+  
+//     } else if (msg.body === '#cmd') {
+//         // Send a new message to the same chat
+//         await   client.sendMessage(msg.from, `Berikut Perintah yang dapat anda gunakan :
+//   #cmd untuk melihat command yang tersedia
+//   #greating untuk mendapat balasan good morning 
+//   #ping untuk mendapat balasan pong 
+//   #hi untuk mendapat balasan halo 
+//   #halo untuk mendapat balasan hi 
+//   'Here\'s your requested testing`);
+  
+  
+//     } else if (msg.body === '#halo') {
+//         // Send a new message to the same chat
+//         await  client.sendMessage(msg.from, 'hi');
+  
+//     } else if (msg.body === '#ping') {
+//         // Send a new message to the same chat
+//         await  client.sendMessage(msg.from, 'pong');
+  
+//     } else if (msg.body === '#greating') {
+//         // Send a new message to the same chat
+//         await   client.sendMessage(msg.from, 'Selamat Pagi');
+  
+//     };
+//   });
 
 // client.on('message', msg => {
 //     if (msg.body == '!cmd') {
@@ -174,8 +162,8 @@ io.on('connection', function(socket) {
         //     if (err) return console.log(err);
         //     console.log('Session file deleted!');
         // });
-        // client.destroy();
-        // client.initialize();
+        client.destroy();
+        client.initialize();
     });
 });
 

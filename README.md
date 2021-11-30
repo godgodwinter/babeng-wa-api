@@ -17,7 +17,7 @@ Whatsapp API menggunakan whatsapp-web.js dan nodejs
 
 3. Jalankan server 
    ```sh
-   npm run start:dev
+   npm run dev
    ```
 
 3. Buka link kemudian scan qrcode 
