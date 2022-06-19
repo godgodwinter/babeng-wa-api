@@ -108,4 +108,4 @@ dist
 .tern-port
 
 # babeng
-.wwebjs_auth
+.wwebjs_auth/session-client-one/
