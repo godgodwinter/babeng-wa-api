@@ -110,3 +110,6 @@ dist
 # babeng
 .wwebjs_auth/session-client-one/
 .wwebjs_auth/
+..wwebjs_auth/
+
+*.wwebjs_auth/

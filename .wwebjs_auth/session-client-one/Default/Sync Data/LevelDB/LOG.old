@@ -1,3 +1,3 @@
-2022/06/20-00:27:43.268 4ec30 Reusing MANIFEST /run/media/babeng/DATA/gawe/babeng-wa-api/.wwebjs_auth/session-client-one/Default/Sync Data/LevelDB/MANIFEST-000001
-2022/06/20-00:27:43.724 4ec30 Recovering log #3
-2022/06/20-00:27:43.736 4ec30 Reusing old log /run/media/babeng/DATA/gawe/babeng-wa-api/.wwebjs_auth/session-client-one/Default/Sync Data/LevelDB/000003.log 
+2022/06/20-00:28:47.581 4f128 Reusing MANIFEST /run/media/babeng/DATA/gawe/babeng-wa-api/.wwebjs_auth/session-client-one/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/06/20-00:28:47.599 4f128 Recovering log #3
+2022/06/20-00:28:47.657 4f128 Reusing old log /run/media/babeng/DATA/gawe/babeng-wa-api/.wwebjs_auth/session-client-one/Default/Sync Data/LevelDB/000003.log 
