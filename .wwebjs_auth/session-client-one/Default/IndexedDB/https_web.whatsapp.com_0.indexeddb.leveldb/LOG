@@ -128,3 +128,68 @@
 2022/06/20-00:17:38.278 4b5ef Delete type=2 #68
 2022/06/20-00:17:38.278 4b5ef Delete type=2 #70
 2022/06/20-00:17:38.279 4b5ef Delete type=2 #71
+2022/06/20-00:18:10.344 4b5ef Level-0 table #77: started
+2022/06/20-00:18:10.820 4b5ef Level-0 table #77: 1046817 bytes OK
+2022/06/20-00:18:10.849 4b5ef Delete type=0 #69
+2022/06/20-00:18:10.889 4b617 Compacting 1@1 + 4@2 files
+2022/06/20-00:18:11.362 4b617 Generated table #78@1: 18437 keys, 2202896 bytes
+2022/06/20-00:18:11.710 4b617 Generated table #79@1: 3672 keys, 2160002 bytes
+2022/06/20-00:18:12.113 4b617 Generated table #80@1: 21725 keys, 2225779 bytes
+2022/06/20-00:18:13.141 4b617 Generated table #81@1: 53408 keys, 1911766 bytes
+2022/06/20-00:18:13.141 4b617 Compacted 1@1 + 4@2 files => 8500443 bytes
+2022/06/20-00:18:13.161 4b617 compacted to: files[ 0 0 4 0 0 0 0 ]
+2022/06/20-00:18:13.164 4b617 Delete type=2 #72
+2022/06/20-00:18:13.164 4b617 Delete type=2 #73
+2022/06/20-00:18:13.164 4b617 Delete type=2 #74
+2022/06/20-00:18:13.164 4b617 Delete type=2 #75
+2022/06/20-00:18:13.164 4b617 Delete type=2 #77
+2022/06/20-00:18:50.727 4b5f4 Level-0 table #83: started
+2022/06/20-00:18:51.048 4b5f4 Level-0 table #83: 1102725 bytes OK
+2022/06/20-00:18:51.072 4b5f4 Delete type=0 #76
+2022/06/20-00:18:51.991 4b617 Compacting 1@1 + 4@2 files
+2022/06/20-00:18:52.880 4b617 Generated table #84@1: 18754 keys, 2201886 bytes
+2022/06/20-00:18:53.235 4b617 Generated table #85@1: 3672 keys, 2160257 bytes
+2022/06/20-00:18:53.611 4b617 Generated table #86@1: 21650 keys, 2225882 bytes
+2022/06/20-00:18:54.586 4b617 Generated table #87@1: 60998 keys, 2236248 bytes
+2022/06/20-00:18:54.688 4b617 Generated table #88@1: 6051 keys, 134375 bytes
+2022/06/20-00:18:54.688 4b617 Compacted 1@1 + 4@2 files => 8958648 bytes
+2022/06/20-00:18:54.731 4b617 compacted to: files[ 0 0 5 0 0 0 0 ]
+2022/06/20-00:18:54.735 4b617 Delete type=2 #78
+2022/06/20-00:18:54.735 4b617 Delete type=2 #79
+2022/06/20-00:18:54.736 4b617 Delete type=2 #80
+2022/06/20-00:18:54.736 4b617 Delete type=2 #81
+2022/06/20-00:18:54.736 4b617 Delete type=2 #83
+2022/06/20-00:19:27.836 4b5f4 Level-0 table #90: started
+2022/06/20-00:19:28.386 4b5f4 Level-0 table #90: 1099074 bytes OK
+2022/06/20-00:19:28.412 4b5f4 Delete type=0 #82
+2022/06/20-00:19:28.474 4b611 Compacting 1@1 + 5@2 files
+2022/06/20-00:19:28.888 4b611 Generated table #91@1: 18466 keys, 2202161 bytes
+2022/06/20-00:19:29.181 4b611 Generated table #92@1: 3671 keys, 2159919 bytes
+2022/06/20-00:19:29.550 4b611 Generated table #93@1: 21705 keys, 2225945 bytes
+2022/06/20-00:19:30.601 4b611 Generated table #94@1: 54780 keys, 2229315 bytes
+2022/06/20-00:19:30.738 4b611 Generated table #95@1: 29210 keys, 652170 bytes
+2022/06/20-00:19:30.739 4b611 Compacted 1@1 + 5@2 files => 9469510 bytes
+2022/06/20-00:19:30.759 4b611 compacted to: files[ 0 0 5 0 0 0 0 ]
+2022/06/20-00:19:30.763 4b611 Delete type=2 #84
+2022/06/20-00:19:30.763 4b611 Delete type=2 #85
+2022/06/20-00:19:30.763 4b611 Delete type=2 #86
+2022/06/20-00:19:30.763 4b611 Delete type=2 #87
+2022/06/20-00:19:30.763 4b611 Delete type=2 #88
+2022/06/20-00:19:30.763 4b611 Delete type=2 #90
+2022/06/20-00:19:58.738 4b5f4 Level-0 table #97: started
+2022/06/20-00:19:58.926 4b5f4 Level-0 table #97: 1069184 bytes OK
+2022/06/20-00:19:58.949 4b5f4 Delete type=0 #89
+2022/06/20-00:19:59.854 4b5f4 Compacting 1@1 + 5@2 files
+2022/06/20-00:20:00.809 4b5f4 Generated table #98@1: 18785 keys, 2201759 bytes
+2022/06/20-00:20:01.134 4b5f4 Generated table #99@1: 3673 keys, 2159983 bytes
+2022/06/20-00:20:01.535 4b5f4 Generated table #100@1: 21614 keys, 2225600 bytes
+2022/06/20-00:20:02.023 4b5f4 Generated table #101@1: 47434 keys, 2218942 bytes
+2022/06/20-00:20:02.559 4b5f4 Generated table #102@1: 50129 keys, 1108648 bytes
+2022/06/20-00:20:02.559 4b5f4 Compacted 1@1 + 5@2 files => 9914932 bytes
+2022/06/20-00:20:02.583 4b5f4 compacted to: files[ 0 0 5 0 0 0 0 ]
+2022/06/20-00:20:02.591 4b5f4 Delete type=2 #91
+2022/06/20-00:20:02.591 4b5f4 Delete type=2 #92
+2022/06/20-00:20:02.592 4b5f4 Delete type=2 #93
+2022/06/20-00:20:02.592 4b5f4 Delete type=2 #94
+2022/06/20-00:20:02.592 4b5f4 Delete type=2 #95
+2022/06/20-00:20:02.592 4b5f4 Delete type=2 #97
