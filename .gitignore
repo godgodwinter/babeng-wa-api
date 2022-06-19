@@ -107,9 +107,15 @@ dist
 # TernJS port file
 .tern-port
 
+# Test sessions
+*session.json
+.wwebjs_auth/
+
 # babeng
 .wwebjs_auth/session-client-one/
 .wwebjs_auth/
 ..wwebjs_auth/
+..wwebjs_auth/session-client-one/
 
 *.wwebjs_auth/
+*.wwebjs_auth/session-client-one/
